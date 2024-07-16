@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import HomeImg from "../assets/home_img.webp"
+import Detail from "../components/Detail";
 
 function Home() {
     return (
@@ -15,6 +16,7 @@ function Home() {
                 url="/"
                 btnClass="show"
             />
+            <Detail/>
         </>
     );
 }

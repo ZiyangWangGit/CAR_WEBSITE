@@ -9,11 +9,8 @@ function Contact() {
             <Hero
                 cName="hero-mid"
                 heroImg={ContactImg}
-                title="Mobile Detailing Experts"
-                text="We bring the shine to you!"
-                buttonText="Detail Plan"
-                url="/"
-                btnClass="show"
+                title="Contact Infomation"
+                btnClass="hide"
             />
         </>
     );

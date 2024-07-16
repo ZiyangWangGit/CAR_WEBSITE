@@ -9,11 +9,8 @@ function Service() {
             <Hero
                 cName="hero-mid"
                 heroImg={ServiceImg}
-                title="Mobile Detailing Experts"
-                text="We bring the shine to you!"
-                buttonText="Detail Plan"
-                url="/"
-                btnClass="show"
+                title="Service Details"
+                btnClass="hide"
             />
         </>
     );

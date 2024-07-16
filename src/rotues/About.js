@@ -9,11 +9,8 @@ function About() {
             <Hero
                 cName="hero-mid"
                 heroImg={AboutImg}
-                title="cccccccc"
-                text="carcar"
-                buttonText="Detail Plan"
-                url="/"
-                btnClass="show"
+                title="About The Company"
+                btnClass="hide"
             />
         </>
     );
