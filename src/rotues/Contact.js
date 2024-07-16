@@ -7,7 +7,7 @@ function Contact() {
         <>      
             <Navbar />
             <Hero
-                cName="hero"
+                cName="hero-mid"
                 heroImg={ContactImg}
                 title="Mobile Detailing Experts"
                 text="We bring the shine to you!"

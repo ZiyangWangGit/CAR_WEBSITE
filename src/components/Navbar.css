@@ -1,146 +1,172 @@
 .NavbarItems {
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
-    width: 90%;
-    height: 60px;
-    border-radius: 10px;
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translate(-50%);
-    z-index: 9999;
+    background-color: white; /* Background color of the navbar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Horizontal padding */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25); /* Shadow effect */
+    width: 90%; /* Width of the navbar */
+    height: 60px; /* Height of the navbar */
+    border-radius: 10px; /* Rounded corners */
+    position: fixed; /* Fixed position on the screen */
+    top: 20px; /* Distance from the top */
+    left: 50%; /* Center the navbar horizontally */
+    transform: translate(-50%); /* Adjust for centering */
+    z-index: 9999; /* Stack order */
+}
+
+.logo-container {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center the logo vertically */
 }
 
 .navbar-logo {
-    color: #222;
-    font-size: 1.5rem;
-    cursor: pointer;
+    height: auto; /* Allow height to adjust based on width */
+    width: auto; /* Maintain aspect ratio */
+    max-height: 60px; /* Limit maximum height */
+    object-fit: contain; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add space to the right */
+    cursor: pointer; /* Pointer cursor on hover */
 }
 
+
+
 .nav-menu {
-    display: grid;
-    grid-template-columns: repeat(6, auto);
-    grid-gap: 8px;
-    list-style: none;
-    align-items: center;
+    display: grid; /* Use grid layout for menu items */
+    grid-template-columns: repeat(6, auto); /* Six equal columns */
+    grid-gap: 8px; /* Space between grid items */
+    list-style: none; /* Remove list styling */
+    align-items: center; /* Center items vertically */
 }
 
 .nav-links {
-    text-decoration: none;
-    color: #222;
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 0.5rem 0.8rem;
-    white-space: nowrap;
-    cursor: pointer;
+    text-decoration: none; /* Remove underline from links */
+    color: #222; /* Link text color */
+    font-size: 1rem; /* Link text size */
+    font-weight: 600; /* Bold text */
+    padding: 0.5rem 0.8rem; /* Vertical and horizontal padding */
+    white-space: nowrap; /* Prevent text wrapping */
+    cursor: pointer; /* Pointer cursor on hover */
 }
 
 .nav-links i {
-    padding-right: 8px;
+    padding-right: 8px; /* Space between icon and text */
 }
 
 .nav-links:hover {
-    background-color: #151516;
-    color: aliceblue;
-    border-radius: 4px;
-    transition: all 0.2s ease-in-out;
+    background-color: #151516; /* Background color on hover */
+    color: aliceblue; /* Text color on hover */
+    border-radius: 4px; /* Rounded corners on hover */
+    transition: all 0.2s ease-in-out; /* Smooth transition */
 }
 
 .nav-links-mobile {
-    display: none;
+    display: none; /* Hide mobile links by default */
 }
 
 button {
-    padding: 0.4rem 0.8rem;
-    white-space: nowrap;
-    border-radius: 0.3rem;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
+    padding: 0.4rem 0.8rem; /* Button padding */
+    white-space: nowrap; /* Prevent text wrapping */
+    border-radius: 0.3rem; /* Rounded corners */
+    font-weight: 600; /* Bold text */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: 0.2s ease-in-out; /* Smooth transition */
 }
 
 button:hover {
-    background-color: #151516;
-    color: #fff;
+    background-color: #151516; /* Background color on hover */
+    color: #fff; /* Text color on hover */
 }
 
 .menu-icons {
-    display: none;
+    display: none; /* Hide menu icons by default */
 }
 
 @media screen and (max-width: 850px) {
     .NavbarItems {
-        z-index: 99;
+        z-index: 99; /* Lower z-index for mobile */
     }
 
     .nav-menu {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        background-color: #fff;
-        width: 100%;
-        height: auto;
-        position: absolute;
-        top: 0;
-        left: -100%;
-        opacity: 0;
-        align-items: stretch;
-        padding: 60px 0 20px;
-        margin: 0;
-        transition: 0.3s ease-in-out;
-        border-radius: 10px;
+        display: flex; /* Use flex layout for mobile menu */
+        flex-direction: column; /* Stack items vertically */
+        justify-content: flex-start; /* Align items to the top */
+        background-color: #fff; /* Background color */
+        width: 100%; /* Full width */
+        height: auto; /* Automatic height */
+        position: absolute; /* Position absolutely */
+        top: 0; /* Start from the top */
+        left: -100%; /* Off-screen to the left */
+        opacity: 0; /* Fully transparent */
+        align-items: stretch; /* Stretch items to full width */
+        padding: 60px 0 20px; /* Padding around menu */
+        margin: 0; /* No margin */
+        transition: 0.3s ease-in-out; /* Smooth transition */
+        border-radius: 10px; /* Rounded corners */
     }
 
     .nav-menu.active {
-        left: 0;
-        opacity: 1;
-        z-index: -1;
-        top: 50px;
-        transition: 0.3s ease-in-out;
+        left: 0; /* Move menu on-screen */
+        opacity: 1; /* Fully opaque */
+        z-index: -1; /* Stack order */
+        top: 50px; /* Adjust position */
+        transition: 0.3s ease-in-out; /* Smooth transition */
     }
 
     .nav-links {
-        display: block;
-        width: 100%;
-        font-size: 1rem;
-        padding: 1.5rem 0;
-        text-align: center;
+        display: block; /* Stack links vertically */
+        width: 100%; /* Full width */
+        font-size: 1rem; /* Link text size */
+        padding: 1.5rem 0; /* Vertical padding */
+        text-align: center; /* Center text */
     }
 
     .nav-links:hover {
-        background: #01959a;
-        transition: none;
+        background: #01959a; /* Background color on hover */
+        transition: none; /* No transition */
     }
 
     button {
-        display: none;
+        display: none; /* Hide button in mobile view */
     }
 
     .nav-links-mobile {
-        display: block;
-        text-align: center;
-        padding: 1rem;
-        margin: auto;
-        border-radius: 4px;
-        background-color: #01959a;
-        text-decoration: none;
-        font-size: 1rem;
-        font-weight: 700;
-        letter-spacing: 1px;
+        display: block; /* Show mobile link */
+        text-align: center; /* Center text */
+        padding: 1rem; /* Padding */
+        margin: auto; /* Centered margin */
+        border-radius: 4px; /* Rounded corners */
+        background-color: #01959a; /* Background color */
+        text-decoration: none; /* Remove underline */
+        font-size: 1rem; /* Link text size */
+        font-weight: 700; /* Bold text */
+        letter-spacing: 1px; /* Spacing between letters */
     }
 
     .menu-icons {
-        display: block;
-        cursor: pointer;
+        display: block; /* Show menu icons */
+        cursor: pointer; /* Pointer cursor */
     }
 
     .menu-icons i {
-        font-size: 1rem;
-        color: #222;
+        font-size: 1rem; /* Icon size */
+        color: #222; /* Icon color */
     }
+
+    .logo-container {
+        display: flex; /* Use flexbox for alignment */
+        align-items: center; /* Center the logo vertically */
+    }
+    
+    .navbar-logo {
+        height: auto; /* Allow height to adjust based on width */
+        width: auto; /* Maintain aspect ratio */
+        max-height: 40px; /* Limit maximum height */
+        object-fit: contain; /* Maintain aspect ratio */
+        margin-right: 20px; /* Add space to the right */
+        cursor: pointer; /* Pointer cursor on hover */
+    }
+    
+    
 }

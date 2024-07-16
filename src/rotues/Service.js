@@ -7,7 +7,7 @@ function Service() {
         <>      
             <Navbar />
             <Hero
-                cName="hero"
+                cName="hero-mid"
                 heroImg={ServiceImg}
                 title="Mobile Detailing Experts"
                 text="We bring the shine to you!"

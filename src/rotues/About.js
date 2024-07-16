@@ -7,7 +7,7 @@ function About() {
         <>      
             <Navbar />
             <Hero
-                cName="hero"
+                cName="hero-mid"
                 heroImg={AboutImg}
                 title="cccccccc"
                 text="carcar"
