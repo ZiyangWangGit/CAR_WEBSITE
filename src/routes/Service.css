@@ -1,0 +1,10 @@
+.price {
+    display: block;          /* Make the image a block element */
+    max-width: 100%;        /* Prevents the image from exceeding container width */
+    max-height: 100%;       /* Prevents the image from exceeding container height */
+    width: auto;            /* Adjusts width automatically */
+    height: auto;           /* Adjusts height automatically */
+    object-fit: cover;      /* Ensures the image covers the area */
+    margin: auto;           /* Center the image horizontally */
+    position: relative;     /* Position relative for vertical centering */
+}
