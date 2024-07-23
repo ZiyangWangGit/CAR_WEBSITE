@@ -14,7 +14,7 @@ function Home() {
                 title="Mobile Detailing Experts"
                 text="We bring the shine to you!"
                 buttonText="Detail Plan"
-                url="/"
+                url="/service"
                 btnClass="show"
             />
             <Detail/>

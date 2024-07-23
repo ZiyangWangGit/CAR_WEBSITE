@@ -1,3 +1,45 @@
-.detail{
-    text-align: center; 
+.detail {
+    text-align: center;
+    margin: 4rem 6rem 25rem;
 }
+
+.detail p{
+    margin-top:0.5rem;
+}
+
+.first-service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    max-width: 100%; /* Ensure the container does not exceed the parent's width */
+    padding: 0 2rem; /* Add padding to ensure content doesn't touch the edges */
+}
+
+.service-text {
+    width: 50%;
+    text-align: center; /* Align text to the left */
+    padding-right: 2rem; /* Space between text and image */
+}
+
+.service-text p{
+    text-align: start;
+}
+
+
+.image {
+    width: 45%;
+    display: flex;
+    justify-content: flex-start; /* Align image to the start (left) */
+    margin-top: -200px;
+}
+
+.shampooImage {
+    width: 100%; /* Make the image fit the container */
+    width:600px;
+    height:400px;
+}
+
+
+
+
