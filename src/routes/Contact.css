@@ -57,7 +57,7 @@ section.left .contactTitle h2::after{
 	position: absolute;
 	width: 25%;
 	height: 3px;
-	background-color: dodgerblue;
+	background-color: rgb(25, 26, 27);
 	top: calc(120% - 1px);
 	left: 0;
 }
@@ -79,7 +79,7 @@ section.left .contactInfo{
 .iconGroup .icon{
 	width: 45px;
 	height: 45px;
-	border: 2px solid dodgerblue;
+	border: 2px solid rgb(69, 79, 89);
 	border-radius: 50%;
 	margin-right: 20px;
 	position: relative;
@@ -115,7 +115,7 @@ section.left .socialMedia{
 	text-align: center;
 	margin-right: 15px;
 	border-radius: 5px;
-	background-color: dodgerblue;
+	background-color: #888;
 	transition: 0.4s;
 }
 .socialMedia a i{
@@ -128,11 +128,11 @@ section.left .socialMedia{
 .socialMedia a:hover{
 	transform: translateY(-5px);
 	background-color: #2e2e2e;
-	color: dodgerblue;
-	border: 1px solid dodgerblue;
+	color: #888;
+	border: 1px solid #888;
 }
 .socialMedia a:hover i{
-	color: dodgerblue;
+	color: #888;
 }
 
 /* Code for the right section (column) */
@@ -176,7 +176,7 @@ textarea::-webkit-scrollbar-track{
 	border-radius: 15px;
 }
 textarea::-webkit-scrollbar-thumb{
-	background-color: dodgerblue;
+	background-color:#888;
 	border-radius: 15px;
 }
 .inputGroup label{
@@ -200,7 +200,7 @@ textarea::-webkit-scrollbar-thumb{
 .inputGroup button{
 	padding: 8px 16px;
 	font-size: 18px;
-	background-color: dodgerblue;
+	background-color: #888;
 	color: #ddd;
 	border: 1px solid transparent;
 	border-radius: 25px;
