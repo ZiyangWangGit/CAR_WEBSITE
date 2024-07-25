@@ -1,0 +1,24 @@
+/* Container for Privacy Policy content */
+.privacy-content {
+    margin: 100px 100px 40px 100px; /* Container margins */
+}
+
+/* Style for paragraphs */
+.privacy-content p {
+    margin-left: 40px; /* Adjust this value as needed */
+    margin-top: 5px;
+}
+
+/* Style for unordered lists */
+.privacy-content ul {
+    list-style-type: square;
+    margin-top: 5px;
+    padding-left: 0; /* Reset padding for proper alignment */
+}
+
+/* Style for list items */
+.privacy-content li {
+    position: relative; /* Create a positioning context for the bullet */
+    margin-top: 5px;
+    padding-left: 5rem; /* Adjust this value to control space between bullet and text */
+}

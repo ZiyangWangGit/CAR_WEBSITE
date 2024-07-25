@@ -1,0 +1,21 @@
+.terms-content {
+    margin: 100px 100px 40px 100px; 
+}
+
+.terms-content p {
+    margin-left: 40px; /* Adjust this value as needed */
+    margin-top: 5px;
+}
+
+.terms-content ul {
+    list-style-type: square; /* Remove default bullets */
+    margin-top: 5px;
+    padding-left: 0; /* Remove default padding */
+}
+
+.terms-content li {
+    position: relative; /* Create a positioning context for the bullet */
+    margin-top: 5px;
+    padding-left: 5rem; /* Adjust this value for space between bullet and text */
+}
+

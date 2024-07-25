@@ -1,20 +1,22 @@
 .detail {
     text-align: center;
-    margin: 4rem 6rem 25rem;
+    margin: 4rem 6rem 5rem;
 }
 
 .detail p{
-    margin-top:0.5rem;
+    margin-top:1.8rem;
+    line-height:1.8rem;
 }
 
-.first-service {
+
+.first-service,.second-service,.third-service{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     margin-top: 4.5rem;
     max-width: 100%; /* Ensure the container does not exceed the parent's width */
     padding: 0 2rem; /* Add padding to ensure content doesn't touch the edges */
 }
+
+
 
 .service-text {
     width: 50%;
@@ -26,20 +28,49 @@
     text-align: start;
 }
 
-
-.image {
-    width: 45%;
-    display: flex;
-    justify-content: flex-start; /* Align image to the start (left) */
-    margin-top: -200px;
+.image{
+    padding-bottom: 350px;
 }
 
 .shampooImage {
-    width: 100%; /* Make the image fit the container */
-    width:600px;
-    height:400px;
+    width:550px;
+    height:350px;
+    object-fit: cover;
+    max-width: 100%;
 }
 
 
+hr {
+    border: none; /* Removes default border */
+    border-top: 1px solid rgb(200, 200, 200); /* Adds a top border */
+    margin-top:70px;
+    width: 80%; /* Adjust the width as needed */
+}
 
 
+@media screen and (max-width: 850px) {
+    .first-service, .second-service,.third-service {
+        flex-direction: column; /* Stack content and image vertically */
+        align-items: flex-start; /* Align items to the start */
+    }
+
+    .service-text {
+        width: 100%; /* Full width for content */
+        padding-right: 0; /* Remove padding on smaller screens */
+        margin-bottom: 1rem; /* Space between content and image */
+    }
+
+    .image {
+        display: flex;
+        justify-content: center; /* Center image horizontally */
+        width: 100%; /* Ensure the image container takes the full width */
+        
+    }
+    
+    .shampooImage {
+        width: 100%; /* Ensure the image fits the container width */
+        height: auto; /* Maintain aspect ratio */
+        padding: 0 1rem;
+    }
+
+}

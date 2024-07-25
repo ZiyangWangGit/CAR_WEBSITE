@@ -7,4 +7,6 @@
     object-fit: cover;      /* Ensures the image covers the area */
     margin: auto;           /* Center the image horizontally */
     position: relative;     /* Position relative for vertical centering */
+    margin-top:5rem;
+    margin-bottom:5rem;
 }

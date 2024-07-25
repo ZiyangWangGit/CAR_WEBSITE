@@ -12,7 +12,7 @@ function Service() {
             <Hero
                 cName="hero-mid"
                 heroImg={ServiceImg}
-                title="Service Details"
+                title="Package Details"
                 btnClass="hide"
             />
             <div className="image-container">

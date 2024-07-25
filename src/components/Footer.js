@@ -33,10 +33,10 @@ const Footer = () => {
                     <a href="/contact">Contact Us</a>
                 </div>
                 <div>
-                    <h4>Others</h4>
-                    <a href="/">Term of Service</a>
-                    <a href="/">Privacy Policy</a>
-                    <a href="/">License</a>
+                    <h4>Legal</h4>
+                    <a href="/termOfUse">Term of Service</a>
+                    <a href="/Privacy_policy">Privacy Policy</a>
+                    {/* <a href="/">License</a> */}
                 </div>
             </div>
         </div>
