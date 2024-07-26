@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.css"; // Ensure correct path to your CSS file
 
 const Footer = () => {
@@ -29,13 +30,13 @@ const Footer = () => {
                 </div>
                 <div>
                     <h4>Help</h4>
-                    <a href="/">Support</a>
-                    <a href="/contact">Contact Us</a>
+                    <Link to="/support">Support</Link>
+                    <Link to="/contact">Contact Us</Link>
                 </div>
                 <div>
                     <h4>Legal</h4>
-                    <a href="/termOfUse">Term of Service</a>
-                    <a href="/Privacy_policy">Privacy Policy</a>
+                    <Link to="/term_of_use">Term of Service</Link>
+                    <Link to="/privacy_policy">Privacy Policy</Link>
                 </div>
             </div>
         </div>

@@ -18,8 +18,8 @@ export default function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/service" element={<Service/>}/>
         <Route path="/contact" element={<Contact/>}/>
-        <Route path="/termOfUse" element={<TermOfUse/>}/>
-        <Route path="/Privacy_policy" element ={ <PrivacyPolicy/>}/>
+        <Route path="/term_of_use" element={<TermOfUse/>}/>
+        <Route path="/privacy_policy" element ={ <PrivacyPolicy/>}/>
       </Routes>
 
 
