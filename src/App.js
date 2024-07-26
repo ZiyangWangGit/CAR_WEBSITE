@@ -4,8 +4,8 @@ import Home from './routes/Home';
 import About from './routes/About';
 import Service from './routes/Service';
 import Contact from './routes/Contact';
-import TermOfUse from './routes/TermOfUse';
-import PrivacyPolicy from './routes/PrivacyPolicy';
+import TermOfUse from './components/TermOfUse';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 
 
