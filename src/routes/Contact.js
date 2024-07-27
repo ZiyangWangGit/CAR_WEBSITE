@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import ContactImg from "../assets/contact_img.jpg";
+import { Link } from "react-router-dom";
 import "./Contact.css";
 
 function Contact() {
@@ -64,10 +65,12 @@ function Contact() {
                             </div>
                         </div>
                         <div className="socialMedia">
-                            <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
-                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                            <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                            <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                            <Link to ="https://www.facebook.com/groups/canadiandetailing/">
+                                <i className="fa-brands fa-facebook-square"></i>
+                            </Link>
+                            <Link to="https://www.instagram.com/explore/tags/cardetailing/?hl=en">
+                                <i className="fa-brands fa-instagram-square"></i>
+                            </Link>
                         </div>
                     </section>
                     <section className="col right">
@@ -90,8 +93,9 @@ function Contact() {
 
 
                             <div className="inputGroup fullWidth">
-                                <button type="submit">Send Message</button>
+                                <button type="submit" className="button-show">Send Message</button>
                             </div>
+
                             {isSubmitted && <p className="confirmation-message">Thank you for your message! We will get back to you shortly.</p>}
                         </form>
                     </section>

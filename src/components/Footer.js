@@ -10,15 +10,15 @@ const Footer = () => {
                     <p>We bring the shine to you!</p>
                 </div>
                 <div>
-                    <a href="/">
+                    <Link to ="https://www.facebook.com/groups/canadiandetailing/">
                         <i className="fa-brands fa-facebook-square"></i>
-                    </a>
-                    <a href="/">
+                    </Link>
+                    <Link to="https://www.instagram.com/explore/tags/cardetailing/?hl=en">
                         <i className="fa-brands fa-instagram-square"></i>
-                    </a>
-                    <a href="/">
+                    </Link>
+                    {/* <a href="/">
                         <i className="fa-brands fa-twitter-square"></i>
-                    </a>
+                    </a> */}
                 </div>
             </div>
             <div className="bottom">
