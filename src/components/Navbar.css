@@ -66,6 +66,7 @@
 
 button {
     padding: 0.4rem 0.8rem; /* Button padding */
+    margin-bottom: 1.1rem;
     white-space: nowrap; /* Prevent text wrapping */
     border-radius: 0.3rem; /* Rounded corners */
     font-weight: 600; /* Bold text */
