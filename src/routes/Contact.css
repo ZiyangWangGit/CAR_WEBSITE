@@ -31,24 +31,6 @@ section.left .contactTitle h2{
 	display: inline-block;
 	margin-bottom: 25px;
 }
-section.left .contactTitle h2::before{
-	content: '';
-	position: absolute;
-	width: 50%;
-	height: 1px;
-	background-color: #888;
-	top: 120%;
-	left: 0;
-}
-section.left .contactTitle h2::after{
-	content: '';
-	position: absolute;
-	width: 25%;
-	height: 3px;
-	background-color: rgb(25, 26, 27);
-	top: calc(120% - 1px);
-	left: 0;
-}
 section.left .contactTitle p{
 	font-size: 17px;
 	color: #ccc;
