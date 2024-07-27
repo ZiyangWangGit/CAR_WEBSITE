@@ -1,0 +1,38 @@
+
+
+.about-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-intro, .about-story, .about-services, .about-commitment, .about-why-choose, .about-contact {
+    margin-bottom: 2rem;
+}
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-top:1rem;
+}
+
+li {
+    margin-bottom: 1rem;
+    margin-left:1rem;
+    
+}
+
+p {
+    line-height: 1.6;
+    margin-left:2rem;
+    margin-top:1rem;
+}
+
+.about-intro p, .about-story p, .about-commitment p, .about-contact p {
+    font-size: 1.1rem;
+}
+
+.about-services ul, .about-why-choose ul {
+    font-size: 1rem;
+}

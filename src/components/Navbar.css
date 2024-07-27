@@ -123,7 +123,7 @@ button:hover {
     }
 
     .nav-links:hover {
-        background: #01959a; /* Background color on hover */
+        background: #0c0c0c; /* Background color on hover */
         transition: none; /* No transition */
     }
 
@@ -137,7 +137,7 @@ button:hover {
         padding: 1rem; /* Padding */
         margin: auto; /* Centered margin */
         border-radius: 4px; /* Rounded corners */
-        background-color: #01959a; /* Background color */
+        background-color: #9da2a2; /* Background color */
         text-decoration: none; /* Remove underline */
         font-size: 1rem; /* Link text size */
         font-weight: 700; /* Bold text */
@@ -151,7 +151,7 @@ button:hover {
 
     .menu-icons i {
         font-size: 1rem; /* Icon size */
-        color: #222; /* Icon color */
+        color: #070707; /* Icon color */
     }
 
     .logo-container {
