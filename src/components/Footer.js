@@ -24,13 +24,12 @@ const Footer = () => {
             <div className="bottom">
                 <div>
                     <h4>Service</h4>
-                    <a href="/">Changelog</a>
-                    <a href="/">License</a>
+                    <Link to="/service">Service Highlights</Link>
                     <a href="/">Status</a>
                 </div>
                 <div>
                     <h4>Help</h4>
-                    <Link to="/support">Support</Link>
+                    <Link to="/about">About</Link>
                     <Link to="/contact">Contact Us</Link>
                 </div>
                 <div>
